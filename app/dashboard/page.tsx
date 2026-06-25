@@ -380,7 +380,9 @@ export default function UnTenseLanding() {
             <a href="#footer">Contact</a>
           </div>
           <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-            <button className="ut-nav-cta" style={{ display: window.innerWidth < 880 ? "none" : "inline-flex" }}>Join Waitlist</button>
+            <button className="ut-nav-cta">
+  Join Waitlist
+</button>
             <button className="ut-nav-burger" onClick={() => setMenuOpen((m) => !m)}>
               {menuOpen ? <X size={22} /> : <Menu size={22} />}
             </button>
