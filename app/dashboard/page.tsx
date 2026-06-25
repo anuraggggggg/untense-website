@@ -394,7 +394,9 @@ export default function UnTenseLanding() {
           <a href="#categories" onClick={() => setMenuOpen(false)}>Categories</a>
           <a href="#faq" onClick={() => setMenuOpen(false)}>About</a>
           <a href="#footer" onClick={() => setMenuOpen(false)}>Contact</a>
-          <button className="ut-nav-cta" style={{ marginTop: 6 }}>Join Waitlist</button>
+          <button className="ut-nav-cta">
+  Join Waitlist
+</button>
         </div>
       )}
 
